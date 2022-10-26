@@ -1,0 +1,19 @@
+Wszystkie pliki .h znajdują się w folderze /include .
+
+Wszystkie pliki .c znajdują się w folderze /src .
+
+Wszystkie pliki .o oraz program wykonywalny similar lines po skompilowaniu znajdą się w folderze /bin .
+
+skrypt test.sh zgodnie ze specyfikacją oczekuje podania parametrów prog oraz dir.
+- dir należy podać zgodnie ze specyfikacją,
+- prog należy podać wraz z poleceniem uruchomienia i ścieżką do programu wykonywalnego.
+
+Np. w terminalu otwartym w folderze z plikami zadania, by uruchomić test.sh dla folderu dir i programu similar_lines, należy najpierw wydać polecenie
+
+make
+
+aby skompilować program, a następnie polecenie
+
+./test.sh ./bin/similar_lines dir
+
+aby wykonać skrypt dla testów z folderu dir.
