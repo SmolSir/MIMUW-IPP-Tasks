@@ -1,0 +1,22 @@
+/**
+@mainpage Dokumentacja zadania wielomiany
+
+### Treść zadania
+
+Uwaga: aktualna treść zadania znajduje się w [Moodle](https://moodle.mimuw.edu.pl).
+
+### Opis programu
+
+W obrębie implementacji w pliku poly.c obowiązuje założenie o poprawności
+wielomianów stanowiących argumenty funkcji oraz zwracanych przez nie
+wielomianów. Zakładamy, że:
+- wskaźniki na wielomiany nie są NULL'ami,
+- jeżeli wielomian nie jest wielomianem stałym, to jego jednomiany składowe
+mają parami różne wykładniki oraz są uporządkowane rosnąco ze względu
+na wykładniki.
+
+Założenia te opieramy na ograniczeniu możliwości użytkownika w obrębie
+tworzenia nowych wielomianów do korzystania jedynie z funkcji dostarczanych
+przez interfejs poly.h, oraz na spełnianiu tych założeń przez wszystkie funkcje
+zarówno w obrębie interfejsu, jak również implementacji.
+*/
